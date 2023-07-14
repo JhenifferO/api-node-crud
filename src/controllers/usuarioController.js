@@ -87,7 +87,7 @@ class UsuarioController {
         }
 
         try {
-            const secret = iuansubfusf26578bdiuasFAF732FUIABFI78EBWUAFENMI8973YUWGEHJEFKGL
+            const secret = process.env.SECRET
 
             const token = jwt.sign(
                 {
