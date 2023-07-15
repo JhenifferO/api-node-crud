@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-mongoose.connect(process.env.STRING_CONEXAO_BD)
+mongoose.connect("mongodb+srv://jheniffero:123@cluster0.aoz3pvw.mongodb.net/livros")
 
 const db = mongoose.connection
 
